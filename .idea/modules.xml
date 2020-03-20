@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Jiahsin.iml" filepath="$PROJECT_DIR$/.idea/Jiahsin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Laravel_JHV/.idea/Laravel_JHV.iml" filepath="$PROJECT_DIR$/../Laravel_JHV/.idea/Laravel_JHV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CV_git/.idea/WebsiteCanhan.iml" filepath="$PROJECT_DIR$/../CV_git/.idea/WebsiteCanhan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WebsiteCanhan/.idea/WebsiteCanhan.iml" filepath="$PROJECT_DIR$/../WebsiteCanhan/.idea/WebsiteCanhan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../drupal8/.idea/drupal8.iml" filepath="$PROJECT_DIR$/../drupal8/.idea/drupal8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../laravel_proj/.idea/laravel_proj.iml" filepath="$PROJECT_DIR$/../laravel_proj/.idea/laravel_proj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../portal_moi/.idea/portal_moi.iml" filepath="$PROJECT_DIR$/../portal_moi/.idea/portal_moi.iml" />
+    </modules>
+  </component>
+</project>

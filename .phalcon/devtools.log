@@ -1,0 +1,2 @@
+Fri 23 04:40:48 DESKTOP-UPD30GF php: [ERROR] 1049: SQLSTATE[HY000] [1049] Unknown database 'test' in D:\wamp64\www\phalcon_tools\scripts\Phalcon\Initializable.php on line 562
+Fri 23 04:40:56 DESKTOP-UPD30GF php: [ERROR] 1049: SQLSTATE[HY000] [1049] Unknown database 'test' in D:\wamp64\www\phalcon_tools\scripts\Phalcon\Initializable.php on line 562

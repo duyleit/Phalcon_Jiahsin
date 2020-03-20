@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jiahsin Application Server</title>
+    <link rel="stylesheet" href="../public/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../public/img/favicon.ico"/>
+</head>
+<body>
+
+<div class="container-fluid jhv-top1">
+    <ul class="nav pull-right small">
+        <a class="nav-item nav-link" href="lang/en"><img src="../public/img/flags/en.png" title="English"></a>
+        <a class="nav-item nav-link" href="lang/zh-hans"><img src="../public/img/flags/zh-hans.png" title="中文"></a>
+        <a class="nav-item nav-link" href="lang/vi"><img src="../public/img/flags/vi.png" title="Tiếng Việt"></a>
+        <a class="nav-item nav-link disabled" href="#">My profile</a>
+        <a class="nav-item nav-link" href="#">Login</a>
+    </ul>
+</div>
+
+<div class="container-fluid jhv-top2">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="../public/img/logo.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <!--li><a href="#">Page 2</a></li-->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">App
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Infirmary</a></li>
+                            <li><a href="#">IT</a></li>
+                            <li><a href="#">Accountant</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+
+
+
+
+
+<div class="container-fluid jhv-top3" style="background: url(../public/img/infirmary/top-bg.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+    <h1 class="text-center text-shadow">Infirmary App</h1>
+</div>
+
+<style type="text/css">
+    .fa-ambulance{
+        color: orangered;
+    }
+    a:hover>.fa-ambulance{
+        color: #fff;
+    }
+</style>
+
+<div class="container-fluid navbar-sub text-center">
+    <div class="btn-group">
+        <a href="infirmary" class="btn btn-primary"><i class="fa fa-ambulance"></i> Infirmary</a>
+        <a href="infirmary/doctor" class="btn btn-primary"><i class="fa fa-user-md"></i> Doctor</a>
+        <a href="infirmary/medicine" class="btn btn-primary"><i class="fa fa-medkit"></i> Medicine</a>
+        <a href="infirmary/stock" class="btn btn-primary"><i class="fa fa-cubes"></i> Stock</a>
+        <a href="infirmary/stock-in" class="btn btn-primary"><i class="fa fa-sign-in"></i> Stock In</a>
+        <a href="infirmary/stock-out" class="btn btn-primary"><i class="fa fa-sign-out"></i> Stock Out</a>
+        <div class="btn-group">
+            <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-hospital-o"></i> Report <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Weekly</a></li>
+                <li><a href="#">Monthly</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container">
+
+    <div class="row" style="margin-bottom: 15px;">
+
+        <div class="col-sm-5">
+            <div class="input-group input-group-sm">
+                <input type="text" class="form-control" name="x" placeholder="Search...">
+                <span class="input-group-btn">
+					<button class="btn btn-default" type="button"><i class="fa fa-search" aria-hidden="true"></i>
+					</button>
+				</span>
+            </div>
+        </div>
+
+        <div class="col-sm-7 text-right">
+            <div class="btn-group btn-group-sm" role="group" aria-label="Basic button group" style="margin-right: 10px;">
+                <a href="infirmary/doctor" class="btn btn-default"><i class="fa fa-list"></i> List</a>
+                <a href="infirmary/doctor/add" class="btn btn-default"><i class="fa fa-plus"></i> Add</a>
+                <a href="infirmary/doctor/disable" class="btn btn-default"><i class="fa fa-unlock"></i> Active</a>
+                <a href="infirmary/doctor/disable" class="btn btn-default"><i class="fa fa-lock"></i> Block</a>
+            </div>
+
+            <div class="btn-group btn-group-sm" role="group" aria-label="Delete group">
+                <a href="infirmary/doctor/delete" class="btn btn-danger"><i class="fa fa-trash"></i> Remove</a>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+<div class="container">
+
+    {{ content() }}
+
+</div>
+
+
+
+<footer>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="small">
+                    Copyright &copy;2017 by <strong>Jia Hsin Co.,LTD</strong>. All right reserved.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p class="text-right small">
+                    Version <strong>1.0.1</strong> - Developed by <strong>Jia Hsin IT Department</strong>.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../public/vendor/jquery/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="../public/vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+.jhv-top1{
+	background: #eee;
+}
+.jhv-top1 a{
+	margin:0px;
+	padding: 2px 7px 2px 4px;
+	color: #666;
+	border-right: #ddd 1px solid;
+}
+.jhv-top1 a:hover{
+	color: #007bff;
+	text-decoration: none;
+	background: #fafafa;
+}
+.navbar-brand{
+	padding-top: 8px;
+}
+.jhv-top2{
+	padding: 0px;
+}
+.jhv-top2 .navbar{
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	background-color: #f8f9fa !important;
+	border: none;
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+.jhv-top2 .navbar-default .navbar-nav > .active > a, .jhv-top2 .navbar-default .navbar-nav > .active > a:focus, .jhv-top2 .navbar-default .navbar-nav > .active > a:hover {
+	background-color: #efefef;
+}
+.jhv-top3{
+	min-height: 100px;
+	border-bottom: #f3f3f3 1px solid;
+}
+.jhv-top3 h1{
+	padding-top: 8px;
+	color: #fff;
+}
+.text-shadow{
+	text-shadow: .05em .05em .15em #999;
+}
+.navbar-sub{
+	margin-bottom: 20px;
+	border-top: #f6f6f6 2px solid;
+	border-bottom: #f6f6f6 1px solid;
+}
+footer{
+	margin-top: 60px;
+}
+.page-header{
+	margin-top:0px;
+}
+.main-layout-btn{
+	margin-bottom: 30px;
+}
+
+.navbar-nav .nav-link{display:inline-block;}
+
+.navbar .navbar-nav .nav-item a.nav-link{
+	text-align: center;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	font-weight: 600;
+}
+.navbar .navbar-nav .nav-item a:hover{
+	background: #fff;
+}
+.navbar-nav
+{
+	list-style: none !important;
+}
+.myNav li
+{
+	display:  inline;
+	padding: 10px 10px;
+	text-decoration: none;
+}
+
+li a:hover
+{
+	background-color: yellow;
+}
